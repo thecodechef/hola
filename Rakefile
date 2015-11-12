@@ -2,6 +2,7 @@
 
 require 'rubygems'
 require 'bundler'
+
 begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
@@ -14,11 +15,11 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = "hola-0.0.1.gem"
-  gem.homepage = "http://github.com/thecodechef/hola-0.0.1.gem"
+  gem.name = "hola"
+  gem.homepage = "http://github.com/thecodechef/hola"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Simple Hello World gem}
+  gem.description = %Q{Simple Hello World gem}
   gem.email = "cyberchefjay@gmail.com"
   gem.authors = ["Jeremy Bolding"]
   # dependencies defined in Gemfile
